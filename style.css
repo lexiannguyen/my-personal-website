@@ -1,0 +1,150 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+body {
+ background-color: rgb(255, 206, 206);
+}
+
+div {
+  list-style-type: none;
+  text-align: center;
+}
+
+main{
+  margin-top: 0;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+iframe{
+  text-align: center;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #266b45;
+  text-align: center;
+  margin: 0.5em;
+  text-shadow: 2px 2px white
+}
+
+#blurb {
+  text-align: center;
+  color: #266b45;
+  padding: 5%
+}
+
+.hobby-titles {
+  color: #1e5336;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.hobbies-table-div {
+  display: flex;
+  grid-column-gap: 20px;
+  list-style-type: none;
+  margin: 5em auto;
+}
+.hobbies-table-div img {
+  width: auto;
+  height: auto;
+}
+.hobbies-list {
+  list-style-type: none;
+  display: inline;
+}
+
+h2{
+  text-align: center;
+}
+/* STYLE IMAGES */
+#me {
+  max-width: 20%;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #1e5336;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#macarons {
+  width: 20em;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto
+}
+#books {
+  width: 20em;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto
+}
+#bulletjournal {
+  width: 20em;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto
+}
+/* #milktea {
+  width: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}/*
+
+
+/* STYLE NAV BAR */
+
+.nav-bar{
+  list-style-type: none;
+  background-color: rgb(255, 176, 176);
+  overflow: hidden;
+  padding: 0.5em;
+} 
+li {
+  text-align: center;
+}
+.nav-elements{
+  display: inline;
+  text-align: center
+}
+
+.nav-elements a {
+  text-align: center;
+  text-decoration: none;
+  color: #1e5336;
+  font-size: 1 em;
+  padding: 0.5em;
+}
+
+li a:hover {
+  background-color: rgb(255, 206, 206);
+}
+
+/* YT CHANNLE PAGE /*/
+.otherytvids iframe {
+  display: block-inline;
+  grid-column-gap: 20px;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+#subtochan {
+  color: black;
+}
+
+#sub {
+  background-color: red;
+  color: white;
+  border: 0.2em solid white;
+  height: 3em;
+  width: auto;
+}
